@@ -2,6 +2,7 @@
   background-color: #ff97b1;
   padding: 0;
   text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
 .navbar-pink .nav-link {
@@ -16,4 +17,63 @@
 .navbar-pink .active>.nav-link {
   color: #ff97b1 !important;
   background-color: white;
+}
+
+/*Logo*/
+
+.containers {
+  height: 200px;
+  width: 100%;
+  background-color: #ff97b1;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containers h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.search-btn {
+  margin-bottom: 30px;
+}
+.center-div {
+    margin: 0 auto;
+}
+
+/* search button*/
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
 }
