@@ -1,0 +1,19 @@
+.navbar-pink {
+  background-color: #ff97b1;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.navbar-pink .nav-link {
+    color: white !important;
+    padding: 15px 25px !important;
+}
+
+.navbar-pink .nav-link:hover {
+    background-color: #d4889b;
+}
+
+.navbar-pink .active>.nav-link {
+  color: #ff97b1 !important;
+  background-color: white;
+}
